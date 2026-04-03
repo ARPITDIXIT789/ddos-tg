@@ -8,9 +8,9 @@ from datetime import datetime, timedelta, timezone
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 # Telegram bot token and channel ID
-TOKEN = '7274723113:AAEZum7hH5AIWsqiEFUTwtulwCpP24'  # Replace with your actual bot token
-ADMIN_IDS = [190857]  # Added new admin ID
-CHANNEL_ID = '-10020757'  # Replace with your specific channel or group ID
+TOKEN = '7567902538:AAHK9Vap_6u3hfEA6zBIRA-pBpKaS-D_RzQ'  # Replace with your actual bot token
+ADMIN_IDS = [5367104890]  # Added new admin ID
+CHANNEL_ID = '-1002302098088'  # Replace with your specific channel or group ID
 # Initialize the bot
 bot = telebot.TeleBot(TOKEN)
 thread_count = 500
